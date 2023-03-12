@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Suite landing page</title>
-</head>
-<body>
-
-  Request Beta Access
-
-  A super solution for your business.
-
-  Our marketing and sales automations help you scale your outreach to 
-  get more leads for your company. 
-
-  Request Beta Access
-
-  2K+
-  Companies
-
-  8
-  Languages
-
-  1.2M
-  Leads
-
-  It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-
-  Copyright - Suite
-
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4724b0e1a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./images/logo.svg" alt="logo suite" /><a href="#"
+        >Request Beta Access</a
+      >
+    </nav>
+    <header>
+      <div class="hero">
+        <div>
+          <img src="./images/pattern-curved-line-1.svg" alt="curved line" />
+        </div>
+        <div class="header-text">
+          <h1>A <span>super solution</span> for your <span>business.</span></h1>
+          <p>
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <a href="#">Request Beta Access</a>
+        </div>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/image-hero-portrait.png"
+          />
+          <img src="./images/image-hero-landscape.png" alt="image hero" />
+        </picture>
+      </div>
+      <section class="statistic">
+        <div>
+          <h3>2K+</h3>
+          <p>Companies</p>
+        </div>
+        <div>
+          <h3>8</h3>
+          <p>Languages</p>
+        </div>
+        <div>
+          <h3>1.2M</h3>
+          <p>Leads</p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="jeremy">
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="./images/image-jeremy-large.png"
+          />
+          <img src="./images/image-jeremy-small.png" alt="jeremy" />
+        </picture>
+        <img src="./images/pattern-curved-line-2.svg" alt="curved line" />
+        <div class="text">
+          <h2>It just <span>works.</span></h2>
+          <p>
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <h3>Jeremy Robinson</h3>
+          <p>CMO, Fylo</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap-footer">
+        <img src="./images/logo.svg" alt="logo suite" />
+        <p>Copyright - Suite</p>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-square-facebook"></i> </a
+          ><a href="#"
+            ><i class="fa-brands fa-twitter"
+              ><i class="fa-brands fa-instagram"></i>
+            </i> </a
+          ><a href="#"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
